@@ -5,6 +5,28 @@
 * @param state The state abbreviation
 */
 
-public class Place {
-    
+String z;
+String t;
+String s;
+
+public Place(String zip, String town, String state) {
+    z = zip;
+    t = town;
+    s = state;
+}
+
+public String toString() {
+    return t + ", " + s;
+}
+
+public String getZip() {
+    return z;
+}
+
+public String getTown() {
+    return t;
+}
+
+public String getState() {
+    return s;
 }
