@@ -1,3 +1,10 @@
+/**
+ * File name: LookupZip.java
+ * Author: Kailyn Brown
+ * Date: 9/11/2025
+ * Purpose: Provides a constructor, accessors, and toString method for working with Place objects
+ */
+
 public class Place {
 
     private String zip;
